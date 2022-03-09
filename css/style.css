@@ -1,0 +1,171 @@
+/*theme css */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300;1,700&family=Open+Sans:wght@300&family=Playfair+Display&display=swap');
+body{
+	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Playfair Display', serif;
+}
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.nav-link.js-scroll-trigger{
+	color: gray;
+	margin: 20px;
+}
+.nav-link.js-scroll-trigger.active{
+	background-color: black;
+	color: white;
+	padding: 10px 30px;
+	border-radius: 30px;
+}
+.header-sec{
+	background: url(../img/index-bg.jpg)no-repeat;
+	background-size: cover;
+}
+.header-text{
+	margin-top: 345px;
+}
+.header-text h1{
+	color: white;
+    font-size: 50px;
+    
+
+}
+.header-text h2{
+	color: white;
+	
+}
+.header-btn{
+	padding: 10px 30px;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    background-color: #e8bf5d;
+   	margin-top: 370px;
+}
+.about-sec{
+	background: url(../img/index-num.png)no-repeat;
+	margin: 150px;
+}
+.about-text h2{
+	font-size: 45px;
+
+}
+.about-text p{
+	font-size: 26px;
+	color: gray;
+
+}
+.history-year{
+
+
+}
+.history-year h3{
+	padding: 30px;
+
+}
+.history-text{
+	margin-top: 105px;
+}
+.history-text p{
+	font-size: 15px;
+    margin: 25px
+
+}
+.expertise-text h3{
+	margin-top: 30px;
+
+}
+.expertise-text p{
+	font-size: 17px;
+    margin-top: 62px;
+}
+.practice-sec{
+	background-color: #111111;
+}
+.fa.fa-quote-left{
+	color: gray;
+	margin-left: 100px;
+}
+.carousel-control-next, .carousel-control-next, .carousel-control-prev, .carousel-control-prev{
+	background-color: transparent !important;
+
+    height: 43px;
+    margin: auto;
+    border: none;
+}
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover{
+	background-color: transparent !important;
+
+}
+.faq-ques h4{
+	padding: 8px;
+}
+.faq-icon h4{
+	color: white;
+	margin-top:39px ;
+}
+.faq-ans{
+	padding: 10px;
+}
+.form-control{
+	border: none;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    margin-left: 13px;
+}
+.msg-line{
+	margin-top: 85px;
+}
+.submit-btn{
+	padding: 10px 30px;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    background-color: #e8bf5d;
+   	margin-top: 45px;
+
+}
+.form{
+	padding: 20px;
+}
+.map img{
+	padding: 20px;
+
+}
+.footer-sec{
+	padding: 20px;
+}
+.fa.fa-facebook{
+	color: white;
+	font-size: 20px;
+	margin: 20px;
+
+}
+.fa.fa-twitter{
+	color: white;
+	font-size: 20px;
+	margin: 20px;
+
+
+}
+.fa.fa-google-plus{
+	color: white;
+	font-size: 20px;
+	margin: 20px;
+
+}
+.fa.fa-instagram{
+	color: white;
+	font-size: 20px;
+	margin: 20px;
+
+}
